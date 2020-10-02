@@ -31,6 +31,7 @@ export class ClienteService {
         })
       }),
       
+      
       map(response => {
         let clientes = response as Cliente[];
         return clientes.map(cliente =>{
